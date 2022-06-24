@@ -1,0 +1,89 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background: var(--violet) url(../images/bg-desktop.svg) center center / contain no-repeat;
+    min-height: 100vh;
+    font-size: 1.6rem;
+    color: #FFF;
+
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+header{
+    padding-block: 5rem;
+}
+
+header img{
+    max-width: 22rem;
+    padding: 1rem;
+}
+
+.container{
+    max-width: 120rem;
+}
+
+.hero-content{
+    display: flex;
+    gap: 2.5rem;
+}
+
+.title-informations{
+    display: flex;
+    padding: 2rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2.4rem;
+}
+
+.title-informations h1{
+    font-family: 'Poppins', sans-serif;;
+    font-size: 3.5rem;
+    margin-top: 3.5rem;
+    line-height: 5rem;
+}
+
+.title-informations p {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    color: rgb(242, 228, 228);
+}
+
+.title-informations button{
+    cursor: pointer;
+    width: 16rem;
+    height: 4.5rem;
+    font-size: 1.6rem;
+    padding: 1rem;
+    border: none;
+    border-radius: 3rem;
+    background-color: #FFF;
+    color: var(--violet);
+    box-shadow: rgba(0, 0, 0, 0.35) 0rem 0.5rem 1.5rem;
+}
+
+.title-informations button:hover{
+    color: #FFF;
+    background-color: var(--soft-magenta);
+}
+
+.social-media-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 2rem;
+}
+
+.social-media-links .fa-brands:hover{
+    color: var(--soft-magenta);
+}
+
+

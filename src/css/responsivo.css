@@ -1,0 +1,64 @@
+@media(max-width: 992px){
+    *{
+        margin: initial;
+        padding: initial;
+    }
+
+    body{
+        background: var(--violet) url(../images/bg-mobile.svg) center top / contain no-repeat;
+    }
+   
+    img{
+        width: 100%;
+        height: auto;
+    }
+
+    header {
+        padding-top: 1rem;
+        margin-left: 1.5rem;
+    }
+
+    header img {
+        max-width: 15rem;
+    }
+
+    .container{
+        max-width: initial;
+
+    }
+    .hero-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
+    }
+    .hero-content img{
+        max-width: 30rem;
+    }
+
+    .title-informations{
+        align-items: center;
+        padding: 2.9rem;
+    }
+    .title-informations h1{
+        font-size: 2.5rem;
+        text-align: center;
+        line-height: initial;
+        padding: 1rem;
+        margin: 0;
+    }
+
+    .title-informations p{
+        text-align: center;
+        font-size: 1.7rem;
+    }
+
+    .title-informations button{
+        margin-bottom: 2rem;
+        width: 70%;
+    }
+    
+    .social-media-links{
+        justify-content: center;
+    }
+}
