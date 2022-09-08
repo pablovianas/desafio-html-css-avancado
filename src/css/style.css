@@ -1,10 +1,11 @@
 html{
     font-size: 62.5%;
+     background: var(--violet) url(../images/bg-desktop.svg) center center / contain no-repeat;
 }
 
 body{
     font-family: 'Open Sans', sans-serif;
-    background: var(--violet) url(../images/bg-desktop.svg) center center / contain no-repeat;
+   
     min-height: 100vh;
     font-size: 1.6rem;
     color: #FFF;
@@ -15,25 +16,32 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
+    height: 100vh;
 }
 
 header{
-    padding-block: 5rem;
+    padding-block: 1rem;
 }
 
 header img{
-    max-width: 22rem;
-    padding: 1rem;
+    max-width: 18rem;
+    margin-bottom: 50px;
 }
 
 .container{
-    max-width: 120rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 100px;
 }
 
 .hero-content{
     display: flex;
     gap: 2.5rem;
+}
+
+.hero-content img{
+    max-width: 600px;
 }
 
 .title-informations{
@@ -42,6 +50,7 @@ header img{
     flex-direction: column;
     align-items: flex-start;
     gap: 2.4rem;
+    max-width: 500px;
 }
 
 .title-informations h1{
@@ -52,7 +61,7 @@ header img{
 }
 
 .title-informations p {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     line-height: 2.5rem;
     color: rgb(242, 228, 228);
 }
