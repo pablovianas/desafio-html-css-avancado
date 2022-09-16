@@ -6,6 +6,11 @@
 a{
     color: #FFF;
 }
+
+ul{
+    list-style: none;
+}
+
 i {
     border-radius: 50%;
     border: solid 0.1rem #FFF;
@@ -15,6 +20,7 @@ i {
     text-align: center;
     font-size: 1.5rem;
 }
+
 i:hover{
-   border: solid 0.1rem var(--soft-magenta);
+    border: solid 0.1rem var(--hover-color);
 }

@@ -1,4 +1,4 @@
 :root{
-    --violet: hsl(257, 40%, 49%);
-    --soft-magenta:  hsl(300, 69%, 71%);
+    --background-color: hsl(257, 40%, 49%);
+    --hover-color:  hsl(300, 69%, 71%);
 }

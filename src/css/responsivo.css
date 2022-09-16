@@ -1,30 +1,56 @@
-@media(max-width: 992px){
+@media(max-width:768px) {
+    body{
+        background: var(--background-color) url(../images/bg-desktop.svg) center left / cover no-repeat;
+    }
+    main{
+        height: initial;
+    }
+    .hero-content{
+        flex-direction: column;
+        align-items: center;
+    }
+    .hero-content img {
+        max-width: 450px;
+    }   
+    .container{
+        max-width: initial;    
+        margin-left: initial;
+    }
+    .title-informations{
+        align-items: center;
+        text-align: center;
+    }
+    .social-media-links{
+        justify-content: center;
+        margin-top: 25px;
+    }
+}
+
+@media(max-width: 425px){
     *{
         margin: initial;
         padding: initial;
     }
-
     body{
-        background: var(--violet) url(../images/bg-mobile.svg) center top / contain no-repeat;
+        background: var(--background-color) url(../images/bg-mobile.svg) center top / contain no-repeat;
     }
-   
+    main{
+        height: initial;
+    }
     img{
         width: 100%;
         height: auto;
     }
-
     header {
         padding-top: 1rem;
         margin-left: 1.5rem;
     }
-
     header img {
         max-width: 15rem;
     }
-
     .container{
-        max-width: initial;
-
+        max-width: initial;    
+        margin-left: initial;
     }
     .hero-content{
         display: flex;
@@ -35,7 +61,6 @@
     .hero-content img{
         max-width: 30rem;
     }
-
     .title-informations{
         align-items: center;
         padding: 2.9rem;
@@ -47,17 +72,14 @@
         padding: 1rem;
         margin: 0;
     }
-
     .title-informations p{
         text-align: center;
         font-size: 1.7rem;
     }
-
     .title-informations button{
         margin-bottom: 2rem;
         width: 70%;
     }
-    
     .social-media-links{
         justify-content: center;
     }

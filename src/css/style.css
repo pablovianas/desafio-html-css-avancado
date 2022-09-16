@@ -1,49 +1,39 @@
 html{
     font-size: 62.5%;
-     background: var(--violet) url(../images/bg-desktop.svg) center center / contain no-repeat;
 }
-
 body{
     font-family: 'Open Sans', sans-serif;
-   
     min-height: 100vh;
     font-size: 1.6rem;
     color: #FFF;
-
+    background: var(--background-color) url(../images/bg-desktop.svg) center center / contain no-repeat;
 }
-
 main{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
-
 header{
     padding-block: 1rem;
 }
-
 header img{
     max-width: 18rem;
     margin-bottom: 50px;
 }
-
 .container{
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-left: 100px;
 }
-
 .hero-content{
     display: flex;
     gap: 2.5rem;
 }
-
 .hero-content img{
     max-width: 600px;
 }
-
 .title-informations{
     display: flex;
     padding: 2rem;
@@ -52,20 +42,17 @@ header img{
     gap: 2.4rem;
     max-width: 500px;
 }
-
 .title-informations h1{
-    font-family: 'Poppins', sans-serif;;
+    font-family: 'Poppins', sans-serif;
     font-size: 3.5rem;
     margin-top: 3.5rem;
     line-height: 5rem;
 }
-
 .title-informations p {
     font-size: 1.6rem;
     line-height: 2.5rem;
     color: rgb(242, 228, 228);
 }
-
 .title-informations button{
     cursor: pointer;
     width: 16rem;
@@ -75,24 +62,21 @@ header img{
     border: none;
     border-radius: 3rem;
     background-color: #FFF;
-    color: var(--violet);
+    color: var(--background-color);
     box-shadow: rgba(0, 0, 0, 0.35) 0rem 0.5rem 1.5rem;
 }
-
 .title-informations button:hover{
     color: #FFF;
-    background-color: var(--soft-magenta);
+    background-color: var(--hover-color);
 }
-
 .social-media-links{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     gap: 2rem;
 }
-
 .social-media-links .fa-brands:hover{
-    color: var(--soft-magenta);
+    color: var(--hover-color);
 }
 
 
